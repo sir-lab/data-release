@@ -8,3 +8,12 @@ This repository explains:
 * How to make some basic plots of the data
 * How to do some basic time series forecasting using the Darts framework
 
+
+## How to download the data
+
+The datasets used in our paper can be downloaded here:
+
+* [Public dataset](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/dataset/public_dataset/public_dataset.zip)
+* [Private dataset](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/dataset/public_dataset/public_dataset.zip)
+
+
