@@ -14,6 +14,6 @@ This repository explains:
 The datasets used in our paper can be downloaded here:
 
 * [Public dataset](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/dataset/public_dataset/public_dataset.zip)
-* [Private dataset](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/dataset/public_dataset/public_dataset.zip)
+* [Private dataset](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/dataset/private_dataset/private_dataset.zip)
 
 
