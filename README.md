@@ -1,7 +1,6 @@
 # Huawei Public Cloud and Huawei Private Cloud data release
 
-This repository explains how to use the Huawei Public Cloud and Huawei Private Cloud datasets and where to download the data.
-It also provides two Jupyter Notebooks that show how to load the data as a Pandas DataFrame and make plots.
+This is the repository of the Huawei Public Cloud and Huawei Private Cloud datasets. It explains where to download the data, and provides two Jupyter Notebooks that show how to load the data as a Pandas DataFrame and make plots.
 
 ## How to download the data
 
