@@ -32,7 +32,7 @@ The datasets used in our paper can be downloaded here:
 
 
 
-
+After downloading the data, the folder structure should look like this. 
 ```console
 .
 ├── demo_private.ipynb
