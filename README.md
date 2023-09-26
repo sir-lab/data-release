@@ -13,10 +13,7 @@ This repository explains:
 
 The datasets used in our paper can be downloaded here:
 
-* [Public dataset](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/public_dataset/public_dataset.zip)
-* [Private dataset](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/private_dataset.zip)
-
-
+### Huawei Private
 |Metric         |Minute         | Second     |
 |---------------|---------------|------------|
 |Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/requests_minute.zip)             |[Requests per second](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/requests_second.zip)           |
@@ -27,4 +24,14 @@ The datasets used in our paper can be downloaded here:
 |CPU limit      |[CPU limit per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/cpu_limit_minute.zip)           |N/A      |
 |Memory limit   |[Memory limit per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/memory_limit_minute.zip)     |N/A   | 
 |Instances      |[Instances per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/instances_minute.zip)           |N/A      |  
+
+
+### Huawei Public
+|Metric         |Minute         |
+|---------------|---------------|
+|Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/public_dataset/public_dataset.zip)|
+
+
+
+
 
