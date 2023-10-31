@@ -1,9 +1,12 @@
 # Huawei Public Cloud and Huawei Private Cloud data release
 
-<a href="https://github.com/sir-lab/data-release/blob/main/SoCC_2023_How_does_it_function.pdf" download>Download our paper </a>
+## <a href="https://github.com/sir-lab/data-release/blob/main/SoCC_2023_How_does_it_function.pdf" download>Download our paper </a>
 
+This is the repository for *How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads* published at ACM SoCC 2023. 
 
-This is the repository of the Huawei Public Cloud and Huawei Private Cloud datasets. It explains where to download the data, and provides two Jupyter Notebooks that show how to load the data as a Pandas DataFrame and make plots.
+The paper analyzes the Huawei Public Cloud and Huawei Private Cloud datasets, which are available for download below. 
+
+We also provide two Jupyter Notebooks that show how to load the data as a Pandas DataFrame and make plots.
 
 ## How to download the data
 
