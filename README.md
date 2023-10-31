@@ -2,7 +2,7 @@
 
 ## <a href="https://github.com/sir-lab/data-release/blob/main/SoCC_2023_How_does_it_function.pdf" download>Download our paper </a>
 
-This is the repository for ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads*** published at ACM SoCC 2023. 
+This is the repository for <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads*** published at ACM SoCC 2023 </a>. 
 
 The paper analyzes the Huawei Public Cloud and Huawei Private Cloud datasets, which are available for download below. 
 
