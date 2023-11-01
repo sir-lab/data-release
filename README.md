@@ -13,6 +13,9 @@ We also provide two Jupyter Notebooks that show how to load the data as a Pandas
 The datasets used in our paper can be downloaded here:
 
 ### Huawei Private
+
+This dataset contains 141 days (collected over 235 days) for 200 functions.
+
 |Metric         |Minute         |Second      |Description    |
 |---------------|---------------|------------|---------------|
 |Function ID | - | - |Unique function identifier out of 200 (0-199) |
@@ -30,6 +33,9 @@ Note: For Huawei Private, requests, function delay, and platform delay are origi
 
 
 ### Huawei Public
+
+This dataset contains 26 days for 5093 functions.
+
 |Metric         |Minute         |Description      |
 |---------------|---------------|-----------------|
 |Function ID | - |Unique function identifier out of 5093 (0-5092) |
