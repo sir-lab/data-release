@@ -32,9 +32,9 @@ Note: For Huawei Private, requests, function delay, and platform delay are origi
 ### Huawei Public
 |Metric         |Minute         |Description      |
 |---------------|---------------|-----------------|
-|Function ID | - | - |Unique function idenfier out of 5093 (0-5092) |
-|Timestamp | - | - | Timestamp in seconds (0-2246340) |
-|Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/public_dataset/public_dataset.zip)|
+|Function ID | - |Unique function idenfier out of 5093 (0-5092) |
+|Timestamp | - | Timestamp in seconds (0-2246340) |
+|Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/public_dataset/public_dataset.zip)| Number of function invocations |
 
 
 
