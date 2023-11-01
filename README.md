@@ -12,9 +12,13 @@ We also provide two Jupyter Notebooks that show how to load the data as a Pandas
 
 The datasets used in our paper can be downloaded here:
 
+This dataset contains 200 functions and 141 days collected over 235 days.
+
 ### Huawei Private
 |Metric         |Minute         |Second      |Description    |
 |---------------|---------------|------------|---------------|
+|Function ID | - | - |Unique function idenfier out of 200 (0-199) |
+|Timestamp | - | - | Timestamp in seconds (0-20303940) |
 |Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/requests_minute.zip)             |[Requests per second](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/requests_second.zip) | Number of function invocations |
 |Function delay |[Function delay per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/function_delay_minute.zip) |[Function delay per second](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/function_delay_second.zip)     | Function execution time averaged over all pods running that function |
 |Platform delay |[Platform delay per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/platform_delay_minute.zip) |[Platform delay per second](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/private_dataset/platform_delay_second.zip     )| Platform delay is scheduling time and some network overheads; averaged over all pods running that function |
@@ -30,6 +34,8 @@ Note: For Huawei Private, requests, function delay, and platform delay are origi
 ### Huawei Public
 |Metric         |Minute         |
 |---------------|---------------|
+|Function ID | - | - |Unique function idenfier out of 5093 (0-5092) |
+|Timestamp | - | - | Timestamp in seconds (0-2246340) |
 |Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/public_dataset/public_dataset.zip)|
 
 
