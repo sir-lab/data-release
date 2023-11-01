@@ -14,7 +14,7 @@ The datasets used in our paper can be downloaded here:
 
 ### Huawei Private
 
-This dataset contains 141 days (collected over 235 days) for 200 functions.
+This dataset contains 141 days (collected over 235 days) for 200 functions from all availability zones combined of our private cloud.
 
 |Metric         |Minute         |Second      |Description    |
 |---------------|---------------|------------|---------------|
@@ -34,7 +34,7 @@ Note: For Huawei Private, requests, function delay, and platform delay are origi
 
 ### Huawei Public
 
-This dataset contains 26 days for 5093 functions.
+This dataset contains 26 days for 5093 functions from one availability zone of our public cloud.
 
 |Metric         |Minute         |Description      |
 |---------------|---------------|-----------------|
