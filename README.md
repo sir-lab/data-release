@@ -12,8 +12,6 @@ We also provide two Jupyter Notebooks that show how to load the data as a Pandas
 
 The datasets used in our paper can be downloaded here:
 
-This dataset contains 200 functions and 141 days collected over 235 days.
-
 ### Huawei Private
 |Metric         |Minute         |Second      |Description    |
 |---------------|---------------|------------|---------------|
@@ -32,8 +30,8 @@ Note: For Huawei Private, requests, function delay, and platform delay are origi
 
 
 ### Huawei Public
-|Metric         |Minute         |
-|---------------|---------------|
+|Metric         |Minute         |Description      |
+|---------------|---------------|-----------------|
 |Function ID | - | - |Unique function idenfier out of 5093 (0-5092) |
 |Timestamp | - | - | Timestamp in seconds (0-2246340) |
 |Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/public_dataset/public_dataset.zip)|
@@ -42,6 +40,12 @@ Note: For Huawei Private, requests, function delay, and platform delay are origi
 
 After downloading the data, the folder structure should look like this. 
 ```console
+.
+├── demo_private.ipynb
+├── demo_public.ipynb
+└── datasets
+    ├── private_dataset
+    │   ├── cpu_limit_minute
 .
 ├── demo_private.ipynb
 ├── demo_public.ipynb
@@ -121,9 +125,3 @@ After downloading the data, the folder structure should look like this.
             ├── day_24.csv
             └── day_25.csv
 ``` 
- 
- 
- 
- 
- 
-
