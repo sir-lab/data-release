@@ -1,6 +1,16 @@
 # Huawei Public Cloud and Huawei Private Cloud data release
 
-## <a href="https://github.com/sir-lab/data-release/blob/main/SoCC_2023_How_does_it_function.pdf" download>Download our paper </a>
+### Download/read our paper
+
+* <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ACM Library </a>
+* <a href="https://arxiv.org/abs/2312.10127" download> arxiv </a>
+* <a href="https://github.com/sir-lab/data-release/blob/main/SoCC_2023_How_does_it_function.pdf" download> GitHub </a>
+
+### Conference video presentation
+
+* <a href="https://www.youtube.com/watch?v=fNhd7vIJgRc&ab_channel=ArtjomJoosen" download> YouTube </a>
+* <a href="https://www.bilibili.tv/en/video/4789602907980800?bstar_from=bstar-web.ugc-video-detail.related-recommend.all" download> BiliBili </a>
+
 
 This is the repository for <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads***</a> published at ACM SoCC 2023. 
 
