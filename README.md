@@ -1,5 +1,11 @@
 # Huawei Public Cloud and Huawei Private Cloud data release
 
+This is the repository for <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads***</a> published at ACM SoCC 2023. 
+
+The paper analyzes the Huawei Public Cloud and Huawei Private Cloud datasets, which are available for download below. 
+
+We also provide two Jupyter Notebooks that show how to load the data as a Pandas DataFrame and make plots.
+
 ### Download/read our paper
 
 * <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ACM Library </a>
@@ -10,13 +16,6 @@
 
 * <a href="https://www.youtube.com/watch?v=fNhd7vIJgRc&ab_channel=ArtjomJoosen" download> YouTube </a>
 * <a href="https://www.bilibili.tv/en/video/4789602907980800?bstar_from=bstar-web.ugc-video-detail.related-recommend.all" download> BiliBili </a>
-
-
-This is the repository for <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads***</a> published at ACM SoCC 2023. 
-
-The paper analyzes the Huawei Public Cloud and Huawei Private Cloud datasets, which are available for download below. 
-
-We also provide two Jupyter Notebooks that show how to load the data as a Pandas DataFrame and make plots.
 
 ## How to download the data
 
