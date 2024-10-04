@@ -61,12 +61,6 @@ After downloading the data, the folder structure should look like this.
 └── datasets
     ├── private_dataset
     │   ├── cpu_limit_minute
-.
-├── demo_private.ipynb
-├── demo_public.ipynb
-└── datasets
-    ├── private_dataset
-    │   ├── cpu_limit_minute
     │   │   ├── day_000.csv
     │   │   ├── day_001.csv
     │   │   ├── ... 
