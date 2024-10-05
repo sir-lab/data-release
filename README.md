@@ -8,6 +8,8 @@ This is the repository for data released from Huawei Cloud's platforms. The data
 
 The datasets used in our papers can be downloaded here:
 
+In some cases, you may not need all directories or files contained in a zip folder. In this case, you should use <a href='https://www.7-zip.org/download.html'> 7zip</a> to open the zipped file and drag out the files or directories you want without extracting the entire zip file. 
+
 ### Huawei Public cold starts (2025)
 
 These files contain every cold start analyzed in our 2025 paper. 
