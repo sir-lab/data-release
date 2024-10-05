@@ -1,16 +1,14 @@
 <h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Cloud Data Releases</h1>
 
----
-
 This is the repository for data released from Huawei Cloud's platforms. The data is analyzed in two papers:
 * EuroSys 2025: <a href="https://github.com/sir-lab/data-release/blob/main/papers/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf" download> ***Serverless Cold Starts and Where to Find Them***</a>
 * ACM SoCC 2023: <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads***</a> 
 
 ## How to download the data
 
-The datasets used in our papers can be downloaded here:
+The datasets used in our papers can be downloaded at the links below.
 
-In some cases, you may not need all directories or files contained in a zip folder. In this case, you should use <a href='https://www.7-zip.org/download.html'> 7zip</a> to open the zipped file and drag out the files or directories you want without extracting the entire zip file. 
+In some cases, you may not need all files in a zip folder. In this case, use <a href='https://www.7-zip.org/download.html'> 7zip</a> to open the zipped file and drag out the files or directories you want without extracting everything. 
 
 ### Huawei Public cold starts (2025)
 
