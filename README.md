@@ -1,6 +1,6 @@
 <h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Cloud Data Releases</h1>
 
-This is the repository for data released from Huawei Cloud's platforms. The data is analyzed in two papers:
+This is the repository for data released from Huawei Cloud's public and private serverless cloud platforms. The data is analyzed in two papers:
 * EuroSys 2025: <a href="https://github.com/sir-lab/data-release/blob/main/papers/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf" download> ***Serverless Cold Starts and Where to Find Them***</a>
 * ACM SoCC 2023: <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads***</a> 
 
