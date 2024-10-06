@@ -10,6 +10,14 @@ The datasets used in our papers can be downloaded at the links below.
 
 In some cases, you may not need all files in a zip folder. In this case, use <a href='https://www.7-zip.org/download.html'> 7zip</a> to open the zipped file and drag out the files or directories you want without extracting everything. 
 
+## Code
+
+To get started using the datasets, look at our notebooks for tips on how to load files and visualize the data.
+* Huawei Public cold starts 2025 <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_cold_start.ipynb"> notebook</a>
+* Huawei Private 2023 <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_private.ipynb"> notebook</a>
+* Huawei Public 2023 <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_public.ipynb"> notebook</a>
+
+
 ### Huawei Public cold starts (2025)
 
 These files contain every cold start analyzed in our 2025 paper. 
@@ -47,15 +55,14 @@ These files contain the time series quantiles of different metrics on our platfo
 
 ### Huawei Public request tables (2025)
 
+
 |Metric/link         |Description          |
 |--------------------|---------------------|
-|Coming soon |Region 1 requests|
-|Coming soon |Region 2 requests|
-|Coming soon |Region 3 requests|
-|[Region 4 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00000_00099.zip) [Region 4 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00100_00199.zip)|Region 4 requests|
-|[Region 5 requests](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R5/R5.zip)|Region 5 requests|
-
-
+|Region 1 requests| Coming soon |
+|Region 2 requests| Coming soon |
+|Region 3 requests| Coming soon |
+|Region 4 requests | [Region 4 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00000_00099.zip), [Region 4 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00100_00199.zip)
+|Region 5 requests|[Region 5 requests](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R5/R5.zip)|
 
 
 ### Huawei Private (2023)
@@ -89,7 +96,7 @@ This dataset contains 26 days for 5093 functions from one availability zone of o
 |Requests       |[Requests per minute](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/public_dataset/public_dataset.zip)| Number of function invocations |
 
 
-
+<!---
 After downloading the data, the folder structure should look like this. 
 ```console
 .
@@ -171,5 +178,5 @@ After downloading the data, the folder structure should look like this.
             ├── day_24.csv
             └── day_25.csv
 ``` 
-
+-->
 
