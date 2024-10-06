@@ -47,7 +47,14 @@ These files contain the time series quantiles of different metrics on our platfo
 
 ### Huawei Public request tables (2025)
 
-* Coming soon
+|Metric/link         |Description          |
+|--------------------|---------------------|
+|Coming soon |Region 1 requests|
+|Coming soon |Region 2 requests|
+|Coming soon |Region 3 requests|
+|Coming soon |Region 4 requests|
+|[Region 5 requests](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/quantiles/R5/R5.zip)|Region 5 requests|
+
 
 
 
