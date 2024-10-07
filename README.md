@@ -2,18 +2,12 @@
 
 This is the repository for data released from Huawei Cloud's public and private serverless cloud platforms. The data is analyzed in two papers:
 * EuroSys 2025: <a href="https://github.com/sir-lab/data-release/blob/main/papers/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf" download> ***Serverless Cold Starts and Where to Find Them***</a>
-    * Links to our paper PDF:
-      * <a href="https://github.com/sir-lab/data-release/blob/main/papers/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf" download> GitHub</a>
+    * Links to our paper PDF: <a href="https://github.com/sir-lab/data-release/blob/main/papers/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf" download> GitHub</a>
 
 
 * ACM SoCC 2023: <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ***How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads***</a> 
-    * Links to our paper:
-      * <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ACM Library </a>
-      * <a href="https://arxiv.org/abs/2312.10127" download> arxiv </a>
-      * <a href="https://github.com/sir-lab/data-release/blob/main/papers/SoCC_2023_How_does_it_function.pdf" download> GitHub </a>
-  * Conference video presentation: 
-    * <a href="https://www.youtube.com/watch?v=fNhd7vIJgRc&ab_channel=ArtjomJoosen" download> YouTube </a>
-    * <a href="https://www.bilibili.tv/en/video/4789602907980800?bstar_from=bstar-web.ugc-video-detail.related-recommend.all" download> BiliBili </a>
+    * Links to our paper: <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ACM Library </a>, <a href="https://arxiv.org/abs/2312.10127" download> arxiv </a>, <a href="https://github.com/sir-lab/data-release/blob/main/papers/SoCC_2023_How_does_it_function.pdf" download> GitHub </a>
+  * Conference video presentation: <a href="https://www.youtube.com/watch?v=fNhd7vIJgRc&ab_channel=ArtjomJoosen" download> YouTube </a>, <a href="https://www.bilibili.tv/en/video/4789602907980800?bstar_from=bstar-web.ugc-video-detail.related-recommend.all" download> BiliBili </a>
 
 ## How to download the data
 
