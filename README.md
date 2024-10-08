@@ -11,8 +11,8 @@ This is the repository for data released from Huawei Cloud's public and private 
 ## How to download the data
 
 The datasets used in our papers can be downloaded at the links below.
-* <a href="https://github.com/sir-lab/data-release/blob/main/src/README_data_release_2025.md"> Huawei Public cold start traces 2025</a>
-* <a href="https://github.com/sir-lab/data-release/blob/main/src/README_data_release_2023.md"> Huawei Public and Public traces 2023</a>
+* <a href="https://github.com/sir-lab/data-release/blob/main/README_data_release_2025.md"> Huawei Public cold start traces 2025</a>
+* <a href="https://github.com/sir-lab/data-release/blob/main/README_data_release_2023.md"> Huawei Public and Public traces 2023</a>
 
 In some cases, you may not need all files in a zip folder. In this case, use <a href='https://www.7-zip.org/download.html'> 7zip</a> to open the zipped file and drag out the files or directories you want without extracting everything. 
 
