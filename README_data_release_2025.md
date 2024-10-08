@@ -5,23 +5,31 @@ This is the description of the Huawei Public Cloud Trace 2025. The data is descr
 
 We provide a schema of the dataset as well as several notebooks and scripts to show how to load the data and make plots. We also provide the links to download the dataset. 
 
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [How to download the data](#how-to-download-the-data)
+  - [Code](#code)
+  - [Huawei Public cold starts](#huawei-public-cold-starts)
+    - [Schema](#schema)
+  - [Huawei Public request tables](#huawei-public-request-tables)
+    - [Schema](#schema-1)
+  - [Huawei Public trigger types and runtime languages (2025)](#huawei-public-trigger-types-and-runtime-languages-2025)
+    - [Schema](#schema-2)
+  - [Huawei Public time series (2025)](#huawei-public-time-series-2025)
+    - [Schema](#schema-3)
 
-### Download/read our paper
-
-* <a href="https://github.com/sir-lab/data-release/blob/main/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf" download> GitHub </a>
-
-## How to download the data
+# How to download the data
 
 The datasets used in our paper can be downloaded at the links below. 
 
 In some cases, you may not need all files in a zip folder. In this case, use <a href='https://www.7-zip.org/download.html'> 7zip</a> to open the zipped file and drag out the files or directories you want without extracting everything. 
 
-### Code
+## Code
 
 To get started using the datasets, look at our notebook for tips on how to load files and visualize the data.
 * Huawei Public cold starts 2025 <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_cold_start.ipynb"> notebook</a>
 
-### Huawei Public cold starts (2025)
+## Huawei Public cold starts
 
 These files contain every cold start analyzed in our 2025 paper. 
 
@@ -33,8 +41,9 @@ These files contain every cold start analyzed in our 2025 paper.
 |[Region 4 cold starts](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/cold_start/R4.zip)|Region 4 cold start events|
 |[Region 5 cold starts](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/cold_start/R5.zip)|Region 5 cold start events|
 
+### Schema
 This table contains individual cold start events. There are different steps of a cold start, including pod allocation, time to deploy code, time to deploy dependencies, and scheduling and other overheads. 
-<small>
+
 | Name  | Log | Description | Unit    | Example   |
 |-------|-----|-------------|---------|----------|
 | day  | cold start | day   | date    | 0-30      |
@@ -49,22 +58,21 @@ This table contains individual cold start events. There are different steps of a
 | deployDependencyCost   | cold start | time to fetch and load dependencies   | seconds | 0.454 |
 | schedulingCost         | cold start | time for networking, routing, and scheduling overheads | seconds | 1.713152185 |
 | podID | cold start | pod ID, contains the pool name (pool24-600-512) which contains pods with CPU limit 600 millicores and memory limit 512MB.  | -       | pool24-600-512-0000577863        |
-</small>
 
-### Huawei Public request tables (2025)
+## Huawei Public request tables
 
-This table contains individual requests for day 30 of our dataset. 
+This table contains event-level logs of individual requests for day 30 of our dataset. 
 
-|Metric/link         |Description          |
+|Metric         |Description          |
 |--------------------|---------------------|
 |Region 1 requests| Coming soon |
-|Region 2 requests| Coming soon |
+|Region 2 requests| [Region 2 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00000_00019.zip), [Region 2 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00020_00039.zip), [Region 2 part 3](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00040_00059.zip), [Region 2 part 4](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00060_00079.zip), [Region 2 part 5](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00080_00099.zip), [Region 2 part 6](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00100_00119.zip), [Region 2 part 7](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00120_00139.zip), [Region 2 part 8](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00140_00159.zip), [Region 2 part 9](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00160_00179.zip), [Region 2 part 10](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00180_00199.zip)
 |Region 3 requests| Coming soon |
 |Region 4 requests| [Region 4 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00000_00099.zip), [Region 4 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00100_00199.zip)
 |Region 5 requests|[Region 5](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R5/R5.zip)|
 
 
-#### Schema 
+### Schema 
 
 Huawei's serverless platform produces logs in several different components. This dataset includes data from three main types of logs: frontend, worker, and cold start. 
 
@@ -74,7 +82,7 @@ This section briefly describes the architecture of our system, shown in the diag
 
 The timestamps have been normalized to start at 0 on day 0, so 2600186.994 means 2600186 seconds and 994 milliseconds after the start of the dataset. 
 
-*Resource usage* The CPU usage of a request is the CPU usage of the entire pod, averaged over the execution time of that request. Similarly, the memory usage of a request is the memory usage of the entire pod, averaged over the execution time of that request.
+**Resource usage** The CPU usage of a request is the CPU usage of the entire pod, averaged over the execution time of that request. Similarly, the memory usage of a request is the memory usage of the entire pod, averaged over the execution time of that request.
 
 
 | Name              | Log      | Description            | Unit   | Example                |
@@ -99,7 +107,7 @@ The timestamps have been normalized to start at 0 on day 0, so 2600186.994 means
 | requestBodySize   | frontend | size of the request body  | Bytes  | 1018                   |
 
 
-### Huawei Public trigger types and runtime languages (2025)
+## Huawei Public trigger types and runtime languages (2025)
 
 This file contains the runtime languages, trigger types, and CPU request for each function in Region 2. 
 
@@ -107,10 +115,11 @@ This file contains the runtime languages, trigger types, and CPU request for eac
 |--------------------|---------------------|
 |[Region 2 runtimes and trigger types](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/runtime_triggerType/df_funcID_runtime_triggerType.csv)|Runtime languages and trigger types per function in Region 2|
 
+### Schema 
 
 This table contains the cpu_request, runtime language, and triggerType-invocationType of each function in Region 2. A unique function is identified by funcID, which is a combination of funcName, userID, and poolName.
 
-*CPU request and CPU limit.* In our system, the user can specify a CPU limit, e.g. 300 millicores. This is the maximum amount of CPU that pods for this function can use. However, the amount of CPU initially requested tends to be lower, which we call cpu\_request. The exact value of cpu_request for different resource configurations may vary, and we provide common values from one region, but they can be used for other regions as well. 
+**CPU request and CPU limit** In our system, the user can specify a CPU limit, e.g. 300 millicores. This is the maximum amount of CPU that pods for this function can use. However, the amount of CPU initially requested tends to be lower, which we call cpu\_request. The exact value of cpu_request for different resource configurations may vary, and we provide common values from one region, but they can be used for other regions as well. 
 
 | Name | Log | Description | Unit | Example |
 |------|-----|-------------|------|---------|
@@ -121,7 +130,7 @@ This table contains the cpu_request, runtime language, and triggerType-invocatio
 
 
 
-### Huawei Public time series (2025)
+## Huawei Public time series (2025)
 
 These files contain the time series quantiles of different metrics on our platform per function, such as totalCost (function execution time) or cold start time. We also include the number of requests, number of pods, and number of cold starts. 
 
@@ -133,6 +142,7 @@ These files contain the time series quantiles of different metrics on our platfo
 |[Region 4 quantiles](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/quantiles/R4.zip)|Region 4 quantiles|
 |[Region 5 quantiles](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/quantiles/R5.zip)|Region 5 quantiles|
 
+### Schema
 | Name                  | Log        | Description                                         |
 |-----------------------|------------|-----------------------------------------------------|
 | busCost               | frontend   | See Table request table schema.                       |
