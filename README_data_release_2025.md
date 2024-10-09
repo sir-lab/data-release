@@ -139,7 +139,7 @@ This table contains the cpu_request, runtime language, and triggerType-invocatio
 
 ## Huawei Public time series (2025)
 
-These files contain the time series quantiles of different metrics on our platform per function, such as totalCost (function execution time) or cold start time. We also include the number of requests, number of pods, and number of cold starts. 
+These files contain the time series of different metrics on our platform per function, including quantiles of totalCost (function execution time) or cold start time. We also include the number of requests, number of pods, and number of cold starts. 
 
 **Length:** 31 days
 
@@ -152,24 +152,31 @@ These files contain the time series quantiles of different metrics on our platfo
 |[Region 5 quantiles](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/quantiles/R5.zip)|Region 5 quantiles|
 
 ### Schema
+
+In addition to the event-based tables above, we provide files that aggregate different metrics per minute as a time series per funcID. The funcID uniquely identifies a function, which is a combination of funcName, userID, and poolName, e.g. 400---418---pool22-300-128 (funcName=400, userID=418, poolName=pool22-300-128). Refer to the example notebooks for more information about how to use these files.
+
+We provide the following summary statistics per function per minute: avg, std, and 0, 0.25, 0.50, 0.75, 0.90, 0.95, 0.99 1.00 quantiles. 
+
+These statistics are computed for most of the metrics seen in the event-based tables, as shown in the table below.
+
 | Name                  | Log        | Description                                         |
 |-----------------------|------------|-----------------------------------------------------|
-| busCost               | frontend   | See Table request table schema.                       |
-| cpu_usage             | worker     | See Table request table schema.                       |
-| deployCodeCost        | cold start | See Table cold start table schema.                    |
-| deployDependencyCost  | cold start | See Table cold start table schema.                    |
-| frontendCost          | frontend   | See Table request table schema.                       |
-| memory_usage          | worker     | See Table request table schema.                       |
-| num_cold_starts       | cold start | Number of cold starts per function. See Table cold start table schema. |
-| num_pods              | worker     | Number of running pods per function. See Table request table schema.    |
-| podAllocationCost     | cold start | See Table cold start table schema.                    |
-| readBodyCost          | frontend   | See Table request table schema.                       |
-| requestBodySize       | frontend   | See Table request table schema.                       |
-| requests              | worker     | Number of requests per function. See Table request table schema.         |
-| runtimeCost           | worker     | See Table request table schema.                       |
-| schedulingCost        | cold start | See Table cold start table schema.                    |
-| totalCost             | worker     | See totalCost_worker in Table request table schema.   |
-| totalCost_cold_start  | cold start | See Table cold start table schema.                    |
-| totalCost_frontend    | frontend   | See Table request table schema.                       |
-| workerCost            | worker     | See Table request table schema.                       |
-| writeRspCost          | frontend   | See Table request table schema.                       |
+| busCost               | frontend   | See request table schema.                       |
+| cpu_usage             | worker     | See request table schema.                       |
+| deployCodeCost        | cold start | See cold start table schema.                    |
+| deployDependencyCost  | cold start | See cold start table schema.                    |
+| frontendCost          | frontend   | See request table schema.                       |
+| memory_usage          | worker     | See request table schema.                       |
+| num_cold_starts       | cold start | Number of cold starts per function. See cold start table schema. |
+| num_pods              | worker     | Number of running pods per function. See request table schema.    |
+| podAllocationCost     | cold start | See cold start table schema.                    |
+| readBodyCost          | frontend   | See request table schema.                       |
+| requestBodySize       | frontend   | See request table schema.                       |
+| requests              | worker     | Number of requests per function. See request table schema.         |
+| runtimeCost           | worker     | See request table schema.                       |
+| schedulingCost        | cold start | See cold start table schema.                    |
+| totalCost             | worker     | See totalCost_worker in request table schema.   |
+| totalCost_cold_start  | cold start | See cold start table schema.                    |
+| totalCost_frontend    | frontend   | See request table schema.                       |
+| workerCost            | worker     | See request table schema.                       |
+| writeRspCost          | frontend   | See request table schema.                       |
