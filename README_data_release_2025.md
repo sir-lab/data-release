@@ -33,6 +33,8 @@ To get started using the datasets, look at our notebook for tips on how to load 
 
 These files contain every cold start analyzed in our 2025 paper. 
 
+**Length:** 31 days
+
 |Metric/link         |Description          |
 |--------------------|---------------------|
 |[Region 1 cold starts](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/cold_start/R1.zip)|Region 1 cold start events|
@@ -63,7 +65,9 @@ This table contains individual cold start events. There are different steps of a
 
 This table contains event-level logs of individual requests for day 30 of our dataset. 
 
-|Metric         |Description          |
+**Length:** 1 day
+
+|Metric         |Download link          |
 |--------------------|---------------------|
 |Region 1 requests| Coming soon |
 |Region 2 requests| [Region 2 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00000_00019.zip), [Region 2 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00020_00039.zip), [Region 2 part 3](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00040_00059.zip), [Region 2 part 4](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00060_00079.zip), [Region 2 part 5](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00080_00099.zip), [Region 2 part 6](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00100_00119.zip), [Region 2 part 7](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00120_00139.zip), [Region 2 part 8](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00140_00159.zip), [Region 2 part 9](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00160_00179.zip), [Region 2 part 10](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00180_00199.zip)
@@ -111,6 +115,9 @@ The timestamps have been normalized to start at 0 on day 0, so 2600186.994 means
 
 This file contains the runtime languages, trigger types, and CPU request for each function in Region 2. 
 
+**Length:** static (valid for 31 days)
+
+
 |Metric/link         |Description          |
 |--------------------|---------------------|
 |[Region 2 runtimes and trigger types](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/runtime_triggerType/df_funcID_runtime_triggerType.csv)|Runtime languages and trigger types per function in Region 2|
@@ -133,6 +140,8 @@ This table contains the cpu_request, runtime language, and triggerType-invocatio
 ## Huawei Public time series (2025)
 
 These files contain the time series quantiles of different metrics on our platform per function, such as totalCost (function execution time) or cold start time. We also include the number of requests, number of pods, and number of cold starts. 
+
+**Length:** 31 days
 
 |Metric/link         |Description          |
 |--------------------|---------------------|
