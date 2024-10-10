@@ -1,7 +1,7 @@
 <h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Public Cloud Trace 2025</h1>
 
 
-This is the description of the Huawei Public Cloud Trace 2025. The data is described in our paper, <a href="https://github.com/sir-lab/data-release/blob/main/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf" download> ***Serverless Cold Starts and Where to Find Them***</a> (EuroSys 2025). 
+This is the description of the Huawei Public Cloud Trace 2025. The data is described in our paper, <a href="https://arxiv.org/abs/2410.06145" download> ***Serverless Cold Starts and Where to Find Them***</a> (EuroSys 2025). 
 
 We provide a schema of the dataset as well as several notebooks and scripts to show how to load the data and make plots. We also provide the links to download the dataset. 
 
