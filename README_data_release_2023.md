@@ -9,13 +9,20 @@ We also provide two Jupyter Notebooks that show how to load the data as a Pandas
 ### Download/read our paper
 
 * <a href="https://dl.acm.org/doi/10.1145/3620678.3624783" download> ACM Library </a>
-* <a href="https://arxiv.org/abs/2312.10127" download> arxiv </a>
+* <a href="https://arxiv.org/abs/2312.10127" download> arXiv </a>
 * <a href="https://github.com/sir-lab/data-release/blob/main/papers/SoCC_2023_How_does_it_function.pdf" download> GitHub </a>
 
 ### Conference video presentation
 
 * <a href="https://www.youtube.com/watch?v=fNhd7vIJgRc&ab_channel=ArtjomJoosen" download> YouTube </a>
 * <a href="https://www.bilibili.tv/en/video/4789602907980800?bstar_from=bstar-web.ugc-video-detail.related-recommend.all" download> BiliBili </a>
+  
+## Code
+
+To get started using the datasets, look at our notebooks for tips on how to load files and visualize the data.
+* <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_private.ipynb"> Huawei Private 2023 notebook</a>
+* <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_public.ipynb"> Huawei Public 2023 notebook</a>
+  
 
 ## How to download the data
 

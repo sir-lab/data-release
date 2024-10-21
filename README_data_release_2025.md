@@ -22,18 +22,17 @@ We provide a schema of the dataset as well as several notebooks and scripts to s
 
 The datasets used in our paper can be downloaded at the links below. 
 
-In some cases, you may not need all files in a zip folder. In this case, use <a href='https://www.7-zip.org/download.html'> 7zip</a> to open the zipped file and drag out the files or directories you want without extracting everything. 
+In some cases, you may not need all files in a zip folder. In this case, use <a href='https://www.7-zip.org/download.html'> 7zip</a> to drag and drop the desired files or directories without extracting the entire archive. 
 
 ## Code
 
-To get started using the datasets, look at our notebook for tips on how to load files and visualize the data.
-* Huawei Public cold starts 2025 <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_cold_start.ipynb"> notebook</a>
+Use the <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_cold_start.ipynb"> Huawei Public cold starts 2025 notebook</a> to get started analyzing the data.
 
 ## Huawei Public cold starts
 
 These files contain every cold start analyzed in our 2025 paper. 
 
-**Length:** 31 days
+**Duration:** 31 days
 
 |Metric/link         |Description          |
 |--------------------|---------------------|
@@ -54,7 +53,7 @@ This table contains individual cold start events. There are different steps of a
 | funcName| cold start | function name | int     | 10  |
 | userID  | cold start | user ID   | int     | 134   |
 | requestID    | cold start | unique request identifier of the request that triggered the scaling decision. Note that one request may trigger multiple cold start events.         | -       | 82f1aa192e8ce27...|
-| totalCost_cold_start   | cold start | total time spent on cold start. This should be used as the `cold start time` | seconds | 2.239314 |
+| totalCost_cold_start   | cold start | total time spent on cold start. This should be used as the cold start time | seconds | 2.239314 |
 | podAllocationCost      | cold start | the time taken to start a pod if no free pods exist or to select a pod from the existing pool to be used by the newly started function | seconds | 0.027161815 |
 | deployCodeCost         | cold start | time to download, extract, and deploy function code | seconds | 0.045 |
 | deployDependencyCost   | cold start | time to fetch and load dependencies   | seconds | 0.454 |
@@ -63,15 +62,15 @@ This table contains individual cold start events. There are different steps of a
 
 ## Huawei Public request tables
 
-This table contains event-level logs of individual requests for day 30 of our dataset. 
+This table contains event-level logs of individual requests for day 30 of our dataset. Note that for Region 1, we release the top 100 pods per function. For Region 3, we also release a subsample of the data analyzed in the paper.
 
-**Length:** 1 day
+**Duration:** 1 day
 
-|Metric         |Download link          |
+|Metric         |Download link(s)          |
 |--------------------|---------------------|
 |Region 1 requests| [Region 1 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00000_00009.zip), [Region 1 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00010_00019.zip), [Region 1 part 3](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00020_00029.zip), [Region 1 part 4](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00030_00039.zip), [Region 1 part 5](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00040_00049.zip), [Region 1 part 6](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00050_00059.zip), [Region 1 part 7](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00060_00069.zip), [Region 1 part 8](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00070_00079.zip), [Region 1 part 9](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00080_00089.zip), [Region 1 part 10](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00090_00099.zip), [Region 1 part 11](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00100_00109.zip), [Region 1 part 12](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00110_00119.zip), [Region 1 part 13](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00120_00129.zip), [Region 1 part 14](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00130_00139.zip), [Region 1 part 15](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00140_00149.zip), [Region 1 part 16](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00150_00159.zip), [Region 1 part 17](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00160_00169.zip), [Region 1 part 18](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00170_00179.zip), [Region 1 part 19](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00180_00189.zip), [Region 1 part 20](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R1/R1_00190_00199.zip) |
 |Region 2 requests| [Region 2 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00000_00019.zip), [Region 2 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00020_00039.zip), [Region 2 part 3](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00040_00059.zip), [Region 2 part 4](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00060_00079.zip), [Region 2 part 5](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00080_00099.zip), [Region 2 part 6](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00100_00119.zip), [Region 2 part 7](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00120_00139.zip), [Region 2 part 8](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00140_00159.zip), [Region 2 part 9](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00160_00179.zip), [Region 2 part 10](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R2/R2_00180_00199.zip)
-|Region 3 requests| Coming soon |
+|Region 3 requests| [Region 3 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R3/R3_00000_00039.zip), [Region 3 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R3/R3_00040_00079.zip), [Region 3 part 3](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R3/R3_00080_00119.zip), [Region 3 part 4](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R3/R3_00120_00159.zip), [Region 3 part 5](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R3/R3_00160_00199.zip) |
 |Region 4 requests| [Region 4 part 1](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00000_00099.zip), [Region 4 part 2](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R4/R4_00100_00199.zip)
 |Region 5 requests|[Region 5](https://sir-dataset.obs.cn-east-3.myhuaweicloud.com/datasets/cold_start_dataset/per_request/R5/R5.zip)|
 
@@ -115,7 +114,7 @@ The timestamps have been normalized to start at 0 on day 0, so 2600186.994 means
 
 This file contains the runtime languages, trigger types, and CPU request for each function in Region 2. 
 
-**Length:** static (valid for 31 days)
+**Duration:** static (valid for 31 days)
 
 
 |Metric/link         |Description          |
@@ -141,7 +140,7 @@ This table contains the cpu_request, runtime language, and triggerType-invocatio
 
 These files contain the time series of different metrics on our platform per function, including quantiles of totalCost (function execution time) or cold start time. We also include the number of requests, number of pods, and number of cold starts. 
 
-**Length:** 31 days
+**Duration:** 31 days
 
 |Metric/link         |Description          |
 |--------------------|---------------------|
