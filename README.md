@@ -2,7 +2,8 @@
 
 This is the repository for data released from Huawei Cloud's public and private serverless cloud platforms. The data is analyzed in two papers:
 * EuroSys 2025: <a href="https://arxiv.org/abs/2410.06145" download> ***Serverless Cold Starts and Where to Find Them***</a>
-    * Links to our paper PDF: [![paper](https://img.shields.io/static/v1?label=arXiv&message=2410.06145&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2410.06145) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=PDF&color=181717&logo=github)](https://github.com/sir-lab/data-release/blob/main/papers/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf) [![ACM](https://img.shields.io/static/v1?label=ACM&message=10.1145/3689031.3696073&color=00599C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDUwIDUwIj48cGF0aCBkPSJNMTIuNSAwTDAgMTIuNSAxMi41IDI1IDAgMzcuNSAxMi41IDUwIDI1IDM3LjUgMzcuNSAxMi41IDI1IDAgMTIuNSAxMi41IDB6IiBmaWxsPSIjMDA1OTlDIi8+PHRleHQgeD0iMjUiIHk9IjMwIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsIHNhbnMtc2VyaWYiPkFDTDwvdGV4dD48L3N2Zz4=)](https://dl.acm.org/doi/10.1145/3689031.3696073)
+    * Links to our paper PDF: [![paper](https://img.shields.io/static/v1?label=arXiv&message=2410.06145&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2410.06145) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=PDF&color=181717&logo=github)](https://github.com/sir-lab/data-release/blob/main/papers/EuroSys_2025_Serverless_Cold_Starts_and_Where_to_Find_Them.pdf) [![ACM](https://img.shields.io/static/v1?label=ACM&message=10.1145/3689031.3696073&color=00599C&logo=acm&logoColor=white)](https://dl.acm.org/doi/10.1145/3689031.3696073)
+
 
 
 
