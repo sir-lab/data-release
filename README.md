@@ -9,8 +9,6 @@ This is the repository for data released from Huawei Cloud's public and private 
     * Links to our paper PDF: [![paper](https://img.shields.io/static/v1?label=arXiv&message=2312.10127&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2312.10127) [![ACM](https://img.shields.io/static/v1?label=ACM&message=10.1145/3620678.3624783&color=00599C&logo=acm&logoColor=white)](https://dl.acm.org/doi/10.1145/3620678.3624783) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=PDF&color=181717&logo=github)](https://github.com/sir-lab/data-release/blob/main/papers/SoCC_2023_How_does_it_function.pdf) 
     * Conference video presentation: [![YouTube](https://img.shields.io/static/v1?label=YouTube&message=Video&color=FF0000&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=fNhd7vIJgRc) [![BiliBili](https://img.shields.io/static/v1?label=BiliBili&message=Video&color=00A1D6&logo=bilibili&logoColor=white)](https://www.bilibili.tv/en/video/4789602907980800)
 
-  <!-- * Conference video presentation: <a href="https://www.youtube.com/watch?v=fNhd7vIJgRc&ab_channel=ArtjomJoosen" download> YouTube</a>, <a href="https://www.bilibili.tv/en/video/4789602907980800?bstar_from=bstar-web.ugc-video-detail.related-recommend.all" download> BiliBili</a> -->
-
 ## How to download the data
 
 The datasets used in our papers can be downloaded at the links below.
