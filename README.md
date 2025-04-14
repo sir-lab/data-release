@@ -2,7 +2,7 @@
 
 This repository contains public releases of Huawei Cloud traces for the benefit of the research and academic community by Huawei's Systems Infrastructure Research (SIR) lab in Edinburgh, UK. 
 
-These public trace releases are essentially hashed versions of our raw production logs of tens of billions of user requests. We release them to enable researchers to conduct realistic simulations and train machine learning models to improve cloud platforms. 
+These public traces are hashed versions of our raw production logs of tens of billions of user requests. We release them to enable researchers to conduct realistic simulations and train machine learning models to improve scheduling and resource allocation in cloud platforms. 
 
 The data is analyzed in two papers:
 
@@ -17,8 +17,8 @@ The data is analyzed in two papers:
 ## How to download the data
 
 The datasets used in our papers can be downloaded at the links below.
-* <a href="https://github.com/sir-lab/data-release/blob/main/README_data_release_2025.md"> Huawei Public cold start traces 2025</a> contains time series of 19 metrics per function over 31 days for 5 regions, as well as per-event tables of requests and cold starts.
-* <a href="https://github.com/sir-lab/data-release/blob/main/README_data_release_2023.md"> Huawei Public and Public traces 2023</a> contains time series of 8 metrics per function over 235 days at per-minute and per-second granularity for two serverless platforms.
+* <a href="https://github.com/sir-lab/data-release/blob/main/README_data_release_2025.md"> Huawei Public cold start traces 2025</a> contains 85 billion raw user requests and 11.9 cold start events in 5 regions. There are 19 metrics per function over 31 days, as well as aggregated time series formats for convenience. 
+* <a href="https://github.com/sir-lab/data-release/blob/main/README_data_release_2023.md"> Huawei Public and Public traces 2023</a> contains 1.4 trillion function requests in time series format. There are 8 metrics per function over 235 days at per-minute and per-second granularity for two serverless platforms.
 
 In some cases, you may not need all files in a zip folder. You can use <a href='https://www.7-zip.org/download.html'> 7zip</a> to drag and drop the desired files or directories without extracting the entire archive. 
 
@@ -40,4 +40,4 @@ conda activate trace-analysis
 
 We welcome feedback, collaboration, or questions. Feel free to open an [Issue](https://github.com/sir-lab/data-release/issues).
 
-These traces and research result from a collaboration between the Systems Infrastructure Research (SIR) lab in Edinburgh (part of Huawei Research UK) and the YuanRong cloud platform team.
+These traces and research result from a collaboration between the Systems Infrastructure Research (SIR) lab in Edinburgh (part of Huawei Research UK) and Huawei's YuanRong serverless cloud platform team.
