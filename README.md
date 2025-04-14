@@ -2,6 +2,8 @@
 
 This repository contains public releases of Huawei Cloud traces for the benefit of the research and academic community by Huawei's Systems Infrastructure Research (SIR) lab in Edinburgh, UK. 
 
+These public trace releases are essentially hashed versions of our raw production logs of tens of billions of user requests. We release them to enable researchers to conduct realistic simulations and train machine learning models to improve cloud platforms. 
+
 The data is analyzed in two papers:
 
 * EuroSys 2025: <a href="https://dl.acm.org/doi/10.1145/3689031.3696073" download> ***Serverless Cold Starts and Where to Find Them***</a>
