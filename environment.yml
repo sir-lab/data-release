@@ -1,0 +1,15 @@
+name: trace-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - anaconda::numpy=1.26.0
+  - anaconda::pandas=2.2.1
+  - conda-forge::matplotlib=3.8.2
+  - conda-forge::seaborn=0.13.2
+  - conda-forge::dask=2024.3.1
+  - conda-forge::tqdm=4.66.2
+  - anaconda::ipykernel
+  - conda-forge::jupyterlab=4.1.4
+  - anaconda::notebook

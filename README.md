@@ -20,15 +20,21 @@ The datasets used in our papers can be downloaded at the links below.
 
 In some cases, you may not need all files in a zip folder. You can use <a href='https://www.7-zip.org/download.html'> 7zip</a> to drag and drop the desired files or directories without extracting the entire archive. 
 
-### Code
+## Code
 
 To get started using the datasets, look at our notebooks for tips on how to load files and visualize the data.
 * <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_cold_start.ipynb"> Huawei Public cold starts 2025 notebook</a>
 * <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_private.ipynb"> Huawei Private 2023 notebook</a>
 * <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_public.ipynb"> Huawei Public 2023 notebook</a>
 
+To run our notebooks with the required packages installed, you can install our conda environment as follows:
 
-### Contact us
+```bash
+conda env create -f environment.yml
+conda activate trace-analysis
+```
+
+## Contact us
 
 We welcome feedback, collaboration, or questions. Feel free to open an [Issue](https://github.com/sir-lab/data-release/issues).
 
