@@ -1,6 +1,9 @@
-<h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Cloud Data Releases</h1>
+<h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Cloud Production FaaS Data Releases</h1>
 
-This is the repository for data released from Huawei Cloud's public and private serverless cloud platforms. The data is analyzed in two papers:
+This repository contains public releases of Huawei Cloud traces for the benefit of the research and academic community by Huawei's Systems Infrastructure Research (SIR) lab in Edinburgh, UK. 
+
+The data is analyzed in two papers:
+
 * EuroSys 2025: <a href="https://dl.acm.org/doi/10.1145/3689031.3696073" download> ***Serverless Cold Starts and Where to Find Them***</a>
     * Links to our paper PDF: [![paper](https://img.shields.io/static/v1?label=arXiv&message=2410.06145&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2410.06145) [![ACM](https://img.shields.io/static/v1?label=ACM&message=10.1145/3689031.3696073&color=00599C&logo=acm&logoColor=white)](https://dl.acm.org/doi/10.1145/3689031.3696073) [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=PDF&color=181717&logo=github)](https://github.com/sir-lab/data-release/blob/edits/papers/Serverless_Cold_Starts_and_Where_to_Find_Them_EuroSys_2025.pdf) 
 
@@ -25,7 +28,8 @@ To get started using the datasets, look at our notebooks for tips on how to load
 * <a href="https://github.com/sir-lab/data-release/blob/main/src/demo_public.ipynb"> Huawei Public 2023 notebook</a>
 
 
-### Questions?
+### Contact us
 
 We welcome feedback, collaboration, or questions. Feel free to open an [Issue](https://github.com/sir-lab/data-release/issues).
 
+These traces and research result from a collaboration between the Systems Infrastructure Research (SIR) lab in Edinburgh (part of Huawei Research UK) and the YuanRong cloud platform team.
