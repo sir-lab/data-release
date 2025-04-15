@@ -1,6 +1,6 @@
 <h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Cloud Production FaaS Data Releases</h1>
 
-This repository contains public releases of Huawei Cloud production serverless FaaS traces for the benefit of the research and academic community by Huawei's Systems Infrastructure Research (SIR) lab in Edinburgh, UK. 
+This repository contains public releases of Huawei Cloud production serverless FaaS traces made available to the research and academic community by Huawei's Systems Infrastructure Research (SIR) lab in Edinburgh, UK. 
 
 These public traces are hashed versions of our raw production logs of tens of billions of user requests over multiple data centers and many months. We release them to enable researchers to conduct realistic simulations and train machine learning models to improve scheduling and resource allocation in cloud platforms. 
 
