@@ -1,4 +1,4 @@
-<h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Cloud Production FaaS Data Releases</h1>
+<h1 align="center" style="margin-bottom:0px; border-bottom:1px; padding-bottom:10px">Huawei Cloud Production FaaS Trace Data Releases</h1>
 
 This repository contains public releases of Huawei Cloud production serverless FaaS traces made available to the research and academic community by Huawei's Systems Infrastructure Research (SIR) lab in Edinburgh, UK. 
 
