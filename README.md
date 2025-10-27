@@ -41,3 +41,5 @@ conda activate trace-analysis
 We welcome feedback, collaboration, or questions. Feel free to open an [Issue](https://github.com/sir-lab/data-release/issues).
 
 These traces and associated research result from a collaboration between the Systems Infrastructure Research (SIR) lab in Edinburgh (part of Huawei Research UK) and Huawei's YuanRong serverless cloud platform team.
+
+Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
